@@ -1,7 +1,7 @@
 const {
     getAllEmployees,
     getAllRoles
-} = require('../lib/queries')
+} = require('../../lib/queries')
 
 module.exports = [
     {

@@ -4,7 +4,7 @@ const {
     Department,
     Employee,
     Role
-} = require('./lib/entities')
+} = require('./entities')
 
 const {
     getAllDepartment,
@@ -42,7 +42,7 @@ const {
 
 const viewAllEmployees = async () => {
 
-    const employees = await getAllEployees();
+    const employees = await getAllEmployees();
     console.table(employees);
 
     main(); // return to main
